@@ -14,7 +14,7 @@ Dependencies
 ============
 
 VBoxGtk requires python, pygobject and VirtualBox (with SDK). It has been 
-tested with python-2.7, pygobject-2.28.6, gtk-3.0 and VirtualBox-4.1.2 
+tested with python-2.7, pygobject-3.18.2, gtk-3.18 and VirtualBox-5.1.6 
 other versions may not work. 
 
 
