@@ -1,0 +1,25 @@
+Information
+===========
+
+VBoxGtk is a simple GTK frontend for VirtualBox. The main goal is to
+provide an interface for the basic features of VirtualBox and keep it
+simple and clean. For advanced options, use VBoxManage or the official
+QT interface.
+
+VBoxGtk is released under the GNU General Public License. See the file 
+"COPYING" for details.
+
+
+Dependencies
+============
+
+VBoxGtk requires python, pygobject and VirtualBox (with SDK). It has been 
+tested with python-2.7, pygobject-2.28.6, gtk-3.0 and VirtualBox-4.1.2 
+other versions may not work. 
+
+
+Running
+=======
+
+To run VBoxGtk just execute the vboxgtk script in bin/. For installation
+instructions, see INSTALL.
