@@ -1,0 +1,17 @@
+--- Makefile.orig	2016-10-03 14:25:35.306707000 +0200
++++ Makefile	2016-10-03 14:28:59.271523000 +0200
+@@ -2,12 +2,9 @@
+ # $FreeBSD: head/deskutils/vboxgtk/Makefile 422140 2016-09-14 15:59:34Z mat $
+ 
+ PORTNAME=	vboxgtk
+-PORTVERSION=	0.8.2
+-PORTREVISION=	1
++PORTVERSION=	0.8.3
+ CATEGORIES=	deskutils emulators gnome
+-MASTER_SITES=	GOOGLE_CODE
+-
+-BROKEN=         Unfetchable (google code has gone away)
++MASTER_SITES=	https://github.com/HiMyNameIsIlNano/vboxgtk/blob/master/
+ 
+ MAINTAINER=	ports@FreeBSD.org
+ COMMENT=	GTK frontend for VirtualBox
