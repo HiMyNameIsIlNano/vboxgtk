@@ -1,8 +1,8 @@
 --- distinfo.orig	2014-01-22 15:30:13.000000000 +0000
-+++ distinfo	2016-10-03 16:39:37.754051000 +0100
++++ distinfo	2016-10-03 16:54:58.699775000 +0100
 @@ -1,2 +1,3 @@
 -SHA256 (vboxgtk-0.8.2.tar.gz) = 317d7b55cc0c98bf3c1fe294a8fc62668709ae14f12b3bf3b32d5fa33451fe95
 -SIZE (vboxgtk-0.8.2.tar.gz) = 43717
-+TIMESTAMP = 1475509177
-+SHA256 (vboxgtk-0.8.3.tar.gz) = 75a4a61dd02f4d4c3f078128b2cdaa85660f74b9bade7101cd87e62b9b98e3ab
-+SIZE (vboxgtk-0.8.3.tar.gz) = 31508
++TIMESTAMP = 1475510098
++SHA256 (vboxgtk-0.8.3.tar.gz) = 7e1e93813eca0ec48e40ff7896a4c6e75ca923c7c5a164248577181605b17dad
++SIZE (vboxgtk-0.8.3.tar.gz) = 32595
