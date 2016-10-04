@@ -1,6 +1,6 @@
 --- Makefile.orig	2016-09-14 16:59:34.000000000 +0100
-+++ Makefile	2016-10-03 16:34:30.863727000 +0100
-@@ -2,16 +2,13 @@
++++ Makefile	2016-10-04 18:52:29.439660000 +0100
+@@ -2,21 +2,18 @@
  # $FreeBSD: head/deskutils/vboxgtk/Makefile 422140 2016-09-14 15:59:34Z mat $
  
  PORTNAME=	vboxgtk
@@ -19,3 +19,9 @@
  RUN_DEPENDS=	${PYTHON_SITELIBDIR}/xpcom/vboxxpcom.py:emulators/virtualbox-ose
  
  USES=		python
+ USE_PYTHON=	distutils autoplist
+-USE_GNOME=	gtk30 intltool pygtk2
++USE_GNOME=	gtk30 pygobject3 intltool pygtk2
+ INSTALLS_ICONS=	yes
+ 
+ OPTIONS_DEFINE=	NLS
